@@ -2,7 +2,7 @@
 
 
 # Profile-Card-Designs
-<p align="center">Hello 👋🏾👋🏾 <br><br>Welcome to a Begginer open source project</p>
+<p align="center">Hello 👋🏾👋🏾 <br><br>Welcome to a Begginer Friendly open source project</p>
 
 <br><br>
 
