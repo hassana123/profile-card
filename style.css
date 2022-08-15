@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #34adae, #cd295a);
+    margin: auto;
+}
+nav {
+
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow:0 0 1rem 0 rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    display: flex;
+}
+nav .name{
+    color: #cd295a;
+    width: 70%;
+    margin-left: 30px;
+}
+nav ul{
+    margin-top: 5px;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    
+    margin-right: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #34adae;
+}
+.mobile{
+    display: none;
+    z-index: 1;
+    border-radius: 25px;
+    padding: 20px;
+    height: 40vh;
+    width: 200px;
+    margin-left: -100%;
+    transition-duration: 5s;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    background-color: white;
+    position: absolute;
+}
+
+nav span{
+    cursor: pointer;
+    display: none;
+    font-size: 2rem;
+    color: red;
+}
+.mobile li{
+    list-style: none;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.mobile li a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.profile-card-container{
+    max-width: 700px;
+    margin: auto;
+    width: 95%;
+    background-color: #f7f6fb;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
+} 
+.picture-segment{
+    background-color: transparent;
+    height: 40vh;
+}
+.animation{
+    background-color: #fab0b3;
+    width:  100%;
+    text-align: center;
+    height: 0vh;
+    animation-name: load;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.picture-segment img{
+    width: 250px;
+    margin-top: 80px;
+    border-radius: 1000px;
+    z-index: 1;
+}
+.about{
+    opacity: 0;
+    animation-name: fly;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.links{
+    text-align: center;
+}
+.links img{
+    width: 10%;
+   
+}
+.info-segment{
+    margin-top: 80px;
+    padding: 25px;
+}
+.info-segment h1{
+    color: #4b4bc3;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.info-segment small {
+    font-size: 1rem;
+    animation-name: colors;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-delay: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.info-segment p{
+    color: #28231d;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.hamburger{
+    display:none;
+    margin-top: 0;
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.bar1{
+    width: 40px;
+    padding: 1px;
+    display: block;
+    margin: 3px 5px;
+    background-color: #34adae;
+}
+.bar2{
+    width: 20px;
+    padding: 1px;
+    display: block;
+    margin: 3px 5px;
+    background-color: #34adae;
+}
+.bar3{
+    width: 30px;
+    padding: 1px;
+    display: block;
+    margin: 3px 5px;
+    background-color: #34adae;
+}
+footer{
+    text-align: center;
+    background-color: #f7f6fb;
+}
+@keyframes fly {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+   100%{
+        opacity: 1;
+    }
+}
+@keyframes colors {
+    0%{
+        color: #28231d;
+    }
+    25%{
+        color: #cd295a;
+     }
+     50%{
+
+        color: #fab0b3;
+     }
+     75%{
+        
+        color: #1eae98;
+     }
+     100%{
+      
+        color: #d72631;
+     }
+
+}
+@keyframes load {
+    0%{
+        height: 0vh;
+    }
+    10%{
+        height: 2vh;
+    }
+    20%{
+        height: 5vh;
+    }
+    30%{
+        height: 10vh;
+    }
+    40%{
+       
+        height: 15vh;
+    }
+    50%{
+        height: 20vh;
+    }
+    60%{
+        height: 22vh;
+    }
+    70%{
+        height: 25vh;
+    }
+    80%{
+        height: 30vh;
+    }
+    90%{
+        height: 35vh;
+    }
+    100%{
+        height: 40vh;
+    }
+}
+@media (max-width:885px) {
+    nav ul li{
+        display: none;
+    }   
+    .hamburger{
+        display: block;
+        width: 20%;
+    }
+    .mobile{
+        display: block;
+    }
+}
