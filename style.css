@@ -131,6 +131,23 @@ nav span{
     margin-bottom: 10px;
     text-transform: uppercase;
 }
+
+.info-segment h2{
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-segment h5{
+    color: #28231d;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .info-segment small {
     font-size: 1rem;
     animation-name: colors;
