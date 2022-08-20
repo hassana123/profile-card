@@ -116,9 +116,11 @@ nav span{
 }
 .links{
     text-align: center;
+    border-radius: 10%;
 }
 .links img{
     width: 10%;
+    border-radius: 50%;
    
 }
 .info-segment{
