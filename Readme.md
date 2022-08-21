@@ -2,7 +2,7 @@
 
 
 # Profile-Card-Designs
-<p align="center">Hello 👋🏾👋🏾 <br><br>Welcome to a Begginer Friendly open source project</p>
+<p align="center">Hello 👋🏾👋🏾 <br><br>Welcome to a Beginner Friendly open source project</p>
 
 <br><br>
 
@@ -13,7 +13,7 @@
 # About Profile-Card-Designs
 
 profile card design is a place to showcase your amazing UI design skills, animation skills, basically all the html, css,  and javascript skills you possess.
-show off your web skilss by making cool, eye catchy profile cards that represents your brand.<br>
+show off your web skills by making cool, eye catching profile cards that represent your brand.<br>
 Ready to make magic?
 
 # Tech stacks:
@@ -25,7 +25,7 @@ Ready to make magic?
  # What is expected when you contribute
  you can contribute by:
 <br>
-* creating a profile card that represent you and what you do (<i>kinda like making a digital business card 😂  </i> ).
+* creating a profile card that represents you and what you do (<i>kinda like making a digital business card 😂  </i> ).
 * adding cool animations to the card if you want to (not a must).
 
 # how to contribute 
