@@ -61,7 +61,7 @@ git commit -m "added my profile card"
 8 then push to the branch you created
 ```sh
 example:
-git push --set-upstream origin (new barnch name)
+git push --set-upstream origin (new branch name)
 ```
 9 Lastly go to the forked repo on github and click on the compare and pull button
 
