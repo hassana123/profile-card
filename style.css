@@ -116,9 +116,9 @@ nav span{
 }
 .links{
     text-align: center;
-}
+    }
 .links img{
-    width: 10%;
+    width: 10%;   
    
 }
 .info-segment{
@@ -135,8 +135,7 @@ nav span{
 .info-segment h2{
     color: #000;
     text-align: center;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+    margin-bottom: 10px;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
