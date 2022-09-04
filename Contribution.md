@@ -20,7 +20,7 @@ please do add images you will be using to the assets folder  on the repository
 example:
 git clone  https://github.com/hassana123/profile-card.git
 ```
-3. Make directory into thw cloned repository
+3. Make directory into the cloned repository
 ```sh
 example:
 cd profile-card
